@@ -1,0 +1,12 @@
+import java.util.List;
+
+@Service
+public class DataService {
+    @Autowired
+    private StudentRepository studentRepository;
+
+    @Autowired
+    private CourseRepository courseRepository;
+
+
+}
